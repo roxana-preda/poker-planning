@@ -25,7 +25,7 @@ function App() {
     {id: '3', name: 'Luci', role: 'observer' },
     {id: '4', name: 'Julie', role: 'moderator' }
   ]);
-  const [selectedCardId, setSelectedCardId] = useState(5);
+  const [selectedCardId, setSelectedCardId] = useState();
   const [selectedRoom, setSelectedRoom] = useState(rooms[0]);
 
   // useEffect((card) => {
