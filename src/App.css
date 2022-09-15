@@ -34,15 +34,16 @@
 .users-container {
   text-align: center;
   font-size: 30px;
-  /* width: 250px; */
+}
+
+.User {
+  text-align: left;
+}
+
+.section {
   margin: 10px;
   padding: 10px 10px 10px 10px;
   border-radius: 25px;
   border-color: black;
   border: solid;
-}
-
-.User {
-  width: 200px;
-  text-align: left;
 }

@@ -5,7 +5,7 @@ const User = ({user}) => {
 
   return (
     <div className="User">
-      <FontAwesomeIcon icon={faUser} /><p>{user.name}</p>
+      <FontAwesomeIcon icon={faUser} /> <span>{user.name}</span> <span>{user.role}</span>
     </div>
   );
 }

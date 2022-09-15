@@ -1,5 +1,3 @@
-import User from "./User";
-
 const RoomList = ({rooms}) => {
 
   return (
